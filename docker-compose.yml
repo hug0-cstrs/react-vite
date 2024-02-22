@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    container_name: vite_docker
+    container_name: react-vite-ngnix
     ports:
-      - "5173:5173"
+      - "8080:8080"
     volumes:
       - type: bind
         source: ./
-        target: /src/portfolio-app
+        target: /app
