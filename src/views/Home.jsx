@@ -15,7 +15,7 @@ const Home = () => {
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
           id="/"
         >
-          <div className={`sm:text-center lg:text-left ${ window.innerWidth < 640 ? "text-center mt-32" : ""}`}>
+          <div className={`sm:text-center lg:text-left ${ window.innerWidth < 640 ? "text-center mt-40" : ""}`}>
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <motion.span
                 className={darkMode ? "block text-black" : "text-gray-200"}
